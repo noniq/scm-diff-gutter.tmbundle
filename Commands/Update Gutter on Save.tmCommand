@@ -65,8 +65,8 @@ open(diff_cmd, 'r:ascii-8bit') do |io|
   end
 end
 
-reset_marks(added,   "#{ENV['TM_BUNDLE_SUPPORT']}/Added Template.pdf")
-reset_marks(changed, "#{ENV['TM_BUNDLE_SUPPORT']}/Changed Template.pdf")
+reset_marks(added,   "#{ENV['TM_BUNDLE_SUPPORT']}/Added.pdf")
+reset_marks(changed, "#{ENV['TM_BUNDLE_SUPPORT']}/Changed.pdf")
 </string>
 	<key>hideFromUser</key>
 	<true/>
